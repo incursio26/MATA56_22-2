@@ -1,0 +1,10 @@
+;EP3 - Como implementar em CLisp? - Questão b - Diogo Santos
+(defparameter my-list(cons 'a (cons 'b (cons 'c'()))))
+(write MY-LIST)
+(write-line " ")
+(write-line " ")
+(defparameter my-list2(cons 'd (cons 'e (cons 'f'()))))
+(write MY-LIST2)
+(write-line " ")
+(write-line " ")
+(write (append MY-LIST MY-LIST2))
