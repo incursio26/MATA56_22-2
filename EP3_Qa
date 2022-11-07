@@ -1,0 +1,9 @@
+;EP3 - Como implementar em CLisp? - Questão a - Diogo Santos
+(defparameter my-list(cons 'a (cons 'b (cons 'c'()))))
+(write MY-LIST)
+(write-line " ")
+(write (first MY-LIST))
+(write-line " ")
+(write-line " ")
+(write (rest MY-LIST))
+(write-line " ")
